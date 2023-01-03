@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nonebot-plugin-revoke"
+version = "0.1.0"
+description = ""
+authors = ["ssttkkl <huang.wen.long@hotmail.com>"]
+license = "MIT"
+readme = "README.MD"
+packages = [{include = "nonebot_plugin_revoke"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nonebot2 = "^2.0.0rc2"
+nonebot-adapter-onebot = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
